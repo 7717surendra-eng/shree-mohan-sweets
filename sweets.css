@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #fff8e7;
+    color: #333;
+}
+
+/* Header */
+header{
+    background: #d42c2c;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+}
+
+header nav a{
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+header nav a:hover{
+    color: #ffe7b3;
+}
+
+/* Hero Section */
+.hero{
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url('https://via.placeholder.com/1200x500');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.hero h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.hero p{
+    font-size: 22px;
+    margin: 10px 0 20px;
+}
+
+.btn{
+    background: #ffcc00;
+    color: #222;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background: #ffdb4d;
+}
+
+/* Sweet Section */
+.sweets{
+    padding: 30px 40px;
+    text-align: center;
+}
+
+.sweets h2{
+    font-size: 36px;
+    margin-bottom: 1px;
+}
+
+.sweet-box{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 300px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3{
+    margin: 15px 0 5px;
+}
+
+.card p{
+    color: #555;
+}
+
+/* Footer */
+footer{
+    background: #d42c2c;
+    text-align: center;
+    color: white;
+    padding: 15px 0;
+    margin-top: 40px;}
+ .box {
+    text-align: left;
+    margin: 0%;
+    padding: 0%;
+    justify-content: left;
+    align-items: end;
+ }
+.middle-photo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.middle-photo img {
+    width: 200px;
+    height: 200px;;
+    object-fit: cover;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
